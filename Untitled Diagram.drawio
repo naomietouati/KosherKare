@@ -4,22 +4,47 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        
+
         <!-- Table Utilisateur -->
         <mxCell id="utilisateur" value="Utilisateur" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="220" y="120" width="160" height="138" as="geometry">
+          <mxGeometry x="220" y="120" width="160" height="208" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
+          <mxChildren>
+            <mxCell id="Nom" value="Nom" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" connectable="0">
+              <mxGeometry width="160" height="26" as="geometry" />
+            </mxCell>
+            <!-- Ajoutez d'autres champs ici -->
+          </mxChildren>
         </mxCell>
 
         <!-- Table HabitudesAlimentaires -->
         <mxCell id="habitudesAlimentaires" value="HabitudesAlimentaires" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="120" width="160" height="432" as="geometry">
+          <mxGeometry x="440" y="120" width="160" height="624" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
+          <mxChildren>
+            <mxCell id="MangeMatin" value="MangeMatin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" connectable="0">
+              <mxGeometry width="160" height="26" as="geometry" />
+            </mxCell>
+            <!-- Ajoutez d'autres champs ici -->
+          </mxChildren>
         </mxCell>
 
-        <!-- Ajoutez d'autres cellules ici selon votre description -->
+        <!-- Table ActivitePhysique -->
+        <mxCell id="activitePhysique" value="ActivitePhysique" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="120" width="160" height="182" as="geometry">
+            <mxRectangle x="670" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+          <mxChildren>
+            <mxCell id="TypeActivite" value="TypeActivite" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" connectable="0">
+              <mxGeometry width="160" height="26" as="geometry" />
+            </mxCell>
+            <!-- Ajoutez d'autres champs ici -->
+          </mxChildren>
+        </mxCell>
+
+        <!-- Ajoutez d'autres tables avec leurs champs ici -->
 
       </root>
     </mxGraphModel>
